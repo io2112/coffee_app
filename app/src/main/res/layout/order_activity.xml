@@ -17,7 +17,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Top Bar -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -45,7 +44,6 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Deliver/Pickup Buttons -->
             <com.google.android.material.button.MaterialButtonToggleGroup
                 android:id="@+id/toggle_button_group"
                 android:layout_width="match_parent"
@@ -79,7 +77,6 @@
                     app:strokeColor="@null" />
             </com.google.android.material.button.MaterialButtonToggleGroup>
 
-            <!-- Delivery Address -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -136,7 +133,6 @@
                 android:layout_marginTop="16dp"
                 android:background="#EEE" />
 
-            <!-- Coffee Item -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -222,7 +218,7 @@
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <!-- Bottom Sheet -->
+
     <LinearLayout
         android:id="@+id/bottom_sheet_layout"
         android:layout_width="match_parent"
@@ -233,7 +229,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Discount -->
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -267,7 +263,6 @@
                     android:src="@drawable/arrow_right" />
             </LinearLayout>
 
-        <!-- Payment Summary -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
